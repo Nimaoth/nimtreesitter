@@ -3,7 +3,7 @@ import ospaths, strutils, strformat
 let
   langs = @["bash", "c", "cpp", "css", "go", "html", "javascript",
             "ocaml", "php", "python", "ruby", "rust", "typescript",
-            "agda", "c_sharp", "haskell", "java", "scala", "nim"]
+            "agda", "c_sharp", "haskell", "java", "scala", "nim", "markdown"]
   broken = @["julia"]
 
 var

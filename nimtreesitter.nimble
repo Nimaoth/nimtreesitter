@@ -1,6 +1,6 @@
 # Package
 
-version       = "0.1.6"
+version       = "0.1.7"
 author        = "genotrance,Nimaoth"
 description   = "tree-sitter wrapper for Nim"
 license       = "MIT"
@@ -9,7 +9,7 @@ skipDirs = @["tests"]
 
 # Dependencies
 
-const languages = ["agda", "bash", "c", "c_sharp", "cpp", "css", "go", "haskell", "html", "java", "javascript", "nim", "python", "php", "ruby", "rust", "scala", "zig", "json"]
+const languages = ["agda", "bash", "c", "c_sharp", "cpp", "css", "go", "haskell", "html", "java", "javascript", "nim", "python", "php", "ruby", "rust", "scala", "zig", "json", "markdown"]
 
 const cmd = when defined(Windows): "cmd /c " else: ""
 
